@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolia website design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="banner">
+        <header>
+            <a href="#" class="logo">port<span>folio</span></a>
+        <div class="toggle"></div>
+        </header>
+        <img src="women.png" class="girl">
+        <div class ='contentBx'>
+            <h4>Hello,</h4>
+            <h2>I'm <span>Sundar Lingam</span></h2>
+            <h3>Professional Software Testing Engineer</h3>
+            <p>A Fresher Software Testing resume 
+            should emphasize the candidate's ability 
+            scripts to increase testing efficiency</p>
+              <a href="#">Hire Me</a>
+              <a href="#">Download CV</a>
+        </div>
+    </div>
+
+        </section>
+        <script>
+            let banner = document.querySelector('.banner');
+            let menutoggle = document.querySelector('.toggle');
+            menutoggle.onclick = function(){
+            menutoggle.classList.toggle('active');
+            banner.classList.toggle('active');
+            }
+            
+        </script>
+</body>
+</html>
